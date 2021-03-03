@@ -1,2 +1,2 @@
 # MyRepository
-Test for the pull and push.
+All of my projects are stored here.
