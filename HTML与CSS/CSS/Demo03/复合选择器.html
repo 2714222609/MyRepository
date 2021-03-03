@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav ul li a {
+            color: red;
+        }
+
+        .hot>a {
+            color: yellowgreen;
+        }
+
+        /* 并集选择器竖着写 */
+        /* 最后一个选择器不需要加逗号 */
+        div,
+        p,
+        .pig li {
+            color: red
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#">baidu</a></li>
+            <li><a href="#">baidu</a></li>
+        </ul>
+    </div>
+
+    <div class="hot">
+        <a href="#">ChongQing</a>
+        <ul>
+            <li><a href="#">BeiJing</a></li>
+            <li><a href="#">WuHan</a></li>
+        </ul>
+    </div>
+
+    <div>xiongda</div>
+    <p>xionger</p>
+    <span>guangtouqiang</span>
+    <ul class="pig">
+        <li>xiaozhupeiqi</li>
+        <li>zhubaba</li>
+        <li>zhumama</li>
+    </ul>
+</body>
+
+</html>

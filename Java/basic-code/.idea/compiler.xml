@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="readFromJson" />
+        <module name="sqlserver" />
+        <module name="LetUsTalk" />
+        <module name="PostOffice" />
+        <module name="IOStream" />
+        <module name="basicCode" />
+        <module name="caogao" />
+        <module name="Thread" />
+        <module name="algorithm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="algorithm" target="11" />
+      <module name="basicCode" target="1.5" />
+      <module name="caogao" target="11" />
+      <module name="IOStream" target="1.5" />
+      <module name="LetUsTalk" target="11" />
+      <module name="PostOffice" target="11" />
+      <module name="readFromJson" target="11" />
+      <module name="sqlserver" target="11" />
+      <module name="Thread" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

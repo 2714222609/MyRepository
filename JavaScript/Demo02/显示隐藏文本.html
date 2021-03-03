@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" value="phone">
+    <script>
+        var text = document.querySelector('input');
+
+        text.onfocus = function() {
+            console.log('get focus');
+            if (this.value === 'phone') {
+                this.value = '';
+            }
+            this.style.color = '#333';
+        }
+
+        text.onblur = function() {
+            console.log('lose focus')
+            if (this.value === ''){
+                this.value = 'phone';
+            }
+            this.style.color = '#999';
+        }
+    </script>
+</body>
+</html>

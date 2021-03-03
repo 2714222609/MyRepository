@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IOStream/IOStream.iml" filepath="$PROJECT_DIR$/IOStream/IOStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LetUsTalk/LetUsTalk.iml" filepath="$PROJECT_DIR$/LetUsTalk/LetUsTalk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../PostOffice/PostOffice.iml" filepath="$PROJECT_DIR$/../../../../../PostOffice/PostOffice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/abstract/abstract.iml" filepath="$PROJECT_DIR$/abstract/abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basicCode/basicCode.iml" filepath="$PROJECT_DIR$/basicCode/basicCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/caogao/caogao.iml" filepath="$PROJECT_DIR$/caogao/caogao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extends/extends.iml" filepath="$PROJECT_DIR$/extends/extends.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interface/interface.iml" filepath="$PROJECT_DIR$/interface/interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaStudy.iml" filepath="$PROJECT_DIR$/javaStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/readFromJson/readFromJson.iml" filepath="$PROJECT_DIR$/readFromJson/readFromJson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlserver/sqlserver.iml" filepath="$PROJECT_DIR$/sqlserver/sqlserver.iml" />
+    </modules>
+  </component>
+</project>

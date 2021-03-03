@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .box {
+        width: 1226px;
+        height: 285px;
+        background-color:pink;
+        margin: 0 auto;
+    }
+
+    .box li {
+        width: 296px;
+        height: 285px;
+        background-color: purple;
+        float: left;
+        margin-right: 14px;
+    }
+    /* 最后一个盒子不需要外边距，注意权重的问题 */
+    .box .last{
+        margin-right: 0;
+    }
+</style>
+<body>
+    <ul class="box">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li class="last">4</li>
+    </ul>
+</body>
+</html>

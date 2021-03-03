@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1571749343 source:d:\c++练习\数组\数组的替代品——victor\main.cpp
+	<iostream>
+	<vector>
+

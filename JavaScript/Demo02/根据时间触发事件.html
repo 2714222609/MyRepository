@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <img src="images/morning.jpg" alt="">
+    <div>Good morning!</div>
+
+    <script>
+        //get the elements
+        var img = document.querySelector('img');
+        var div = document.querySelector('div');
+
+        //get the hour
+        var date = new Date();
+        var h = date.getHours();
+
+        //judge the hour to match the corresponding picture
+        if(h < 12) {
+            img.src = 'images/morning.jpg';
+            div.innerHTML = "Good morning dear, let's coding!"
+        }else if (h > 12 && h < 18){
+            img.src = 'images/afternoon.jpg';
+            div.innerHTML = "Good afternoon dear, let's keep on coding!";
+        }else {
+            img.src = 'images/night.jpg';
+            div.innerHTML = "Good night dear, have a early rest!";
+        }
+    </script>
+</body>
+</html>

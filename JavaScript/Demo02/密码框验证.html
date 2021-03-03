@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 600px;
+            margin: 100px auto;
+        }
+
+        .message {
+            display: inline-block;
+            font-size: 12px;
+            color: #999;
+            background: url(images/mess.png) no-repeat left center;
+            padding-left: 20px;
+        }
+
+        .wrong {
+            color: red;
+            background-image: url(images/wrong.png);
+        }
+        .right {
+            color: green;
+            background-image: url(images/right.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="register">
+        <input type="password" class="ipt">
+        <p class="message">Please input 6~16 passwords</p>
+    </div>
+
+    <script>
+        var input = document.querySelector('.ipt');
+        var message = document.querySelector('.message');
+
+        input.onblur = function() {
+            if (this.value.length < 6 || this.value.length > 16) {
+                message.className = 'message';
+                message.innerHTML = 'The number of digits you entered is not correct(6~16), please re-enter.';
+            }else {
+                message.className = 'message right';
+                message.innerHTML = 'Your input is correct';
+            }
+        }
+    </script>
+</body>
+</html>

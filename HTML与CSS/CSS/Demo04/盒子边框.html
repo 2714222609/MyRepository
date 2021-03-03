@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .div1 {
+        width: 300px;
+        height: 200px;
+        /* 边框的粗细 */
+        border-width: 5px;
+        /* 边框的样式，solid实线边框，dashed虚线边框，dotted点线边框 */
+        border-style: solid;
+        /* 边框的颜色 */
+        border-color: pink;
+    }
+
+    .div2 {
+        /* 边框的复合写法 */
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        border: 5px solid red;   
+        border-top: 5px solid blue; /*利用边框的层叠性*/
+    }
+
+    .div3 {
+        /* 盒子内边距 */
+        width: 300px;
+        height: 300px;
+        background-color: green;
+        /* padding-left: 20px;
+        padding-top: 20px; */
+
+        /* 内边距jianxie */
+        padding: 10px;
+    }
+</style>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3">盒子的内容</div>
+</body>
+</html>
